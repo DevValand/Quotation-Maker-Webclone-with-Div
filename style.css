@@ -1,0 +1,262 @@
+* {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: x-large;
+    color: gray;
+}
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 549;
+    font-style: normal;
+    /* font-size: 1.3vw; */
+}
+h1{
+    color: rgb(24,28,49);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+p{
+    color: rgb(111,123,139);
+
+}
+
+nav {
+    font-family: "Nunito Sans", sans-serif;
+    background: rgba(255, 255, 255, 0.8);
+    /* padding-top: .1vw; */
+    position: sticky;
+    z-index: 1;
+    backdrop-filter: blur(8px);
+        /* position: fixed; */
+    /* top: 0px; */
+    /* padding-top: .5rem;
+    z-index: 50;
+    height: 80px;
+    width: 100%; */
+
+
+}
+
+#navBar-con {
+    position: relative;
+}
+
+
+#navBar-left {
+    /* font-size: 90px; */
+    width: 30%;
+}
+#navBar-left img{
+    width: 4rem;
+    height: auto;
+}
+
+
+#navBar-left-cmp-name {
+    position: absolute;
+    margin-left: 5.3vw;
+    margin-top: 1.1vw;
+}
+
+#navBar-right {
+    position: absolute;
+    width: fit-content;
+    text-align: right;
+    width: 100%;
+    align-content: center;
+}
+
+#navBar-right a {
+    /* position: relative; */
+    text-decoration: none;
+    color: gray;
+    padding: 0vw 1.1vw;
+    font-size: 1rem;
+    /* font-weight: 540; */
+}
+#navBar-right a:hover{
+    color: rgb(40, 54, 147);
+    transition: .5s ease;
+
+}
+
+
+.cmn-clr {
+    color: rgb(40, 54, 147);
+    font-weight: 700;
+}
+
+#main-page-con {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10rem 2.2rem;
+
+}
+
+#main-page-con-left {
+    width: 45vw;
+}
+
+#main-page-con-left {
+    font-size: 1.7vw;
+    color: rgb(67, 83, 104);
+}
+
+#main-page-con h1 {
+    font-weight: 500;
+
+}
+
+#dwn-img {
+    width: fit-content;
+}
+
+#dwn-img div {
+    width: fit-content;
+    float: left;
+    margin-right: 1vw;
+
+}
+
+#main-page-con-right {
+
+    /* float: right; */
+    position: absolute;
+    margin-left: 58.5vw;
+    margin-top: 14vw;
+}
+
+#circle {
+    width: 37vw;
+    height: 37vw;
+    background: rgb(21, 76, 139);
+    border-radius: 100%;
+    position: absolute;
+}
+
+#main-page-right-box {
+    /* padding: 10px; */
+
+}
+
+#main-page-right-img-box {
+    margin: 3vw 4vw;
+    width: 25vw;
+}
+
+#main-page-right-box img {
+    border-radius: 5vw;
+    margin-left: 2.1vw;
+    margin-top: -.6vw;
+    width: 100%;
+    height: auto;
+    /* position: absolute; */
+
+}
+
+#wave-svg {
+    margin-top: 31vw;
+    margin-left: .1vw;
+    position: absolute;
+}
+
+#dimond-svg {
+    margin-top: -2vw;
+    margin-left: 27vw;
+    position: absolute;
+}
+
+svg {
+    width: 5.3vw;
+    height: auto;
+}
+
+.icons {
+    font-size: 5vw;
+    color: rgb(56, 69, 155);
+}
+
+#feat-banner {
+    width: 100%;
+    height: auto;
+    /* padding: 10vw 10vw; */
+    background: red;
+    margin-top: 5vw;
+}
+
+.feat-banner-cards {
+    padding: 2vw 1vw;
+    text-align: center;
+    
+    width: 20%;
+    height: 18vw;
+    left: 0;
+    float: left;
+    color: rgb(49,66,89);
+    background: rgb(248,250,252);
+
+    /* justify-items: left; */
+    /* align-self: start; */
+    /* margin: 0 auto; */
+    /* box-sizing: border-box; */
+    /* padding-right: 20px; */
+    /* color: rgb(49,66,89); */
+}
+#feat-banner h3{
+    font-size: x-large;
+    font-weight: 500;
+}
+
+#feat-banner p{
+    margin-top: -1vw;
+    font-weight: 400;
+    color: inherit;
+
+}
+.cmn-effect{
+    padding-top: 50rem;
+}
+#app-ss-con{
+    /* margin-top: 25vw; */
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-top: 18rem;
+    padding: 0vw 5vw;
+    width: 100%;
+}
+
+.ss-header{
+    width: 100%;
+    text-align: center;
+    padding: 3rem 13vw;
+    font-size: 1.3rem;
+}
+.ss-header h1{
+    font-size: 2.7rem;
+}
+#app-ss-con p{
+    font-size: 7rem;
+    font-weight: 450;
+    font-size: large;
+}
+#app-ss div{
+    float: left;
+    margin-right: 4rem;
+}
+#app-ss img{
+    width: 17rem;
+    height: auto;
+    border-radius: 1rem;
+}
+/* #main-page-right-box img{
+    padding-left: 4vw;
+    padding-top: 2vw;
+    border-radius: 20px;
+} */
+/* border-bottom-left-radius: 2vw; */
+/* border-start-end-radius: 2vw; */
