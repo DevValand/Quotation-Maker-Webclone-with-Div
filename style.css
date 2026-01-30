@@ -10,6 +10,7 @@ body {
     color: gray;
     /* user-select: text    ; */
 }
+
 /* 
 nav,
 section {
@@ -53,7 +54,7 @@ nav {
     background: rgba(255, 255, 255, 0.8);
     /* padding-top: .1vw; */
     position: sticky;
-    z-index:2;
+    z-index: 100;
     backdrop-filter: blur(10px);
     /* border: solid; */
     /* position: fixed; */
@@ -65,7 +66,8 @@ nav {
 
 
 }
-section{
+
+section {
     z-index: -1;
 }
 
@@ -465,7 +467,7 @@ svg {
     margin-top: 4rem;
     padding-top: 5rem;
     height: 140rem;
-    border: solid;
+    /* border: solid; */
     width: 92%;
     margin-left: auto;
     margin-right: auto;
@@ -582,7 +584,7 @@ li::marker {
 
 }
 
-#connect{
+#connect {
     position: absolute;
     /* z-index: -1;
     display: flex;
@@ -591,26 +593,29 @@ li::marker {
     margin-left: 20rem;
     margin-top: -12rem; */
 }
-#conn-b{
+
+#conn-b {
     margin-left: 200%;
     margin-top: 70%;
     position: absolute;
 }
-#conn-t{
+
+#conn-t {
     margin-left: 450%;
     margin-top: 60%;
     /* position: absolute; */
 }
 
 #feat-cards2 {
- 
+
     height: 22rem;
     margin-left: auto;
     margin-right: auto;
 
     padding-left: 1.4rem;
 }
-#feat-cards-con2{
+
+#feat-cards-con2 {
     margin-top: 9rem;
     border-radius: 1rem;
     box-shadow: 0px 1px 5px rgba(45, 74, 170, 0.14);
@@ -620,45 +625,201 @@ li::marker {
     margin: .5rem .5rem;
     position: relative;
 }
-#custom-con{
+
+#custom-con {
     text-align: center;
     font-size: 1.39rem;
     width: 100%;
 }
-#banner{
+
+#banner {
     width: 100%;
     padding: 2rem .5rem;
 }
-#custom-con{
+
+#custom-con {
     font-size: 1.8rem;
 }
-#banner img{
+
+#banner img {
     width: 100%;
 }
 
-#dwn-con{
-    background-color: rgb(87,105,189);
-height: 30rem;
+#dwn-con {
+}
+
+#download-banner-con{
+    background-color: rgb(87, 105, 189);
+    height: 28rem;
     border-radius: 1rem;
-}
-#download-banner-left{
+    /* border: solid red; */
+    margin-top: 8rem;
+    padding-top: 1rem;
     float: left;
-    width: 56%;
-    padding: 1rem 5rem;
+
 }
-#download-banner-left img{
+
+#download-banner-left {
+    float: left;
+    width: 51.5%;
+    padding: 1rem 4rem;
+}
+
+#download-banner-left img {
     width: 10rem;
     float: left;
     margin-right: 1rem;
 }
-#download-banner-left h1{
+
+#download-banner-left h1 {
     font-size: 2.2rem;
     color: white;
 }
-#download-banner-left p{
-    font-size: 1.2rem;
+
+#download-banner-left p {
+    font-size: 1.15rem;
     color: white;
+    margin-top: -.5rem;
+    padding-bottom: 1.5rem;
 }
+
+#download-banner-right {
+    width: 48%;
+    float: left;
+    align-content: end;
+    height: 26rem;
+    /* border: solid; */
+}
+
+#download-banner-right img {
+    /* width: 49%; */
+    float: left;
+    padding-right: 2rem;
+}
+
+#download-banner-right div {}
+
+.dwn-right-img1 {
+    width: 17.5rem;
+    padding-top: 1rem;
+}
+
+.dwn-right-img2 {
+    width: 17rem;
+    padding-top: 4.2rem;
+}
+
+.dwn-right-img21 {
+    display: none;
+}
+
+.dwn-right-img12 {
+    display: none;
+
+}
+
+#test-con{
+    text-align: center;
+    margin-top: 32rem;
+    padding-top: 4rem;
+}
+#test-head{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem 1rem;
+}
+#test-head p {
+    font-size: 1.2rem;
+    color: #314259;
+}
+#test-head h1{
+    font-size: 2.4rem;
+}
+#test-card-con{
+    width: 100%;
+    height: 20rem;
+    /* border: solid red; */
+}
+#test-card-box {
+    /* border: solid green; */
+    margin: 2rem 3rem;
+    width: 71rem;
+    height: 17rem;
+    padding: 2rem 4rem;
+}
+
+#test-card {
+    width: 30rem;
+    /* border: solid blue; */
+    text-align: justify;
+    float: left;
+    padding: .2rem 1rem;
+    margin-right: 1.3rem;
+    box-shadow: 0px 1px 5px rgba(45, 74, 170, 0.14);
+    border-radius: .5rem;
+}
+#test-card-lwr{
+    /* border: solid; */
+    padding: 1rem;
+}
+#test-card-lwr-left > div{
+    float: left;
+}
+#card-img {
+    width: auto;
+    /* float: left; */
+    margin-right: .5rem;
+}
+#card-name {
+    /* float: left; */
+    text-align: left;
+    margin-top: -2rem;
+}
+#card-name p{
+    margin-top: -1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+}
+#card-name h4{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    font-size: .9rem;
+    font-weight: 550;
+
+}
+
+#space{
+    width: 100%;
+    height: 40rem;
+}
+
+#test-card-lwr {
+    /* border: solid; */
+    padding: 0rem;
+}
+#test-card-lwr-left {
+    float: left;
+    /* justify-items: center; */
+    margin-right: 8rem;
+}
+#card-img {
+    /* width: 2rem; */
+    float: left;
+    margin-right: .5rem;
+}
+#card-name {
+    float: left;
+    text-align: left;
+    margin-top: -1rem;
+}
+#test-card-lwr-right {
+    float: left;
+}
+
+
+
+
 
 
 
@@ -796,7 +957,7 @@ height: 30rem;
         background: rgb(21, 76, 139);
         border-radius: 100%;
         position: absolute;
-        margin-top: 58rem;
+        margin-top: 59rem;
         margin-left: -12rem;
     }
 
@@ -845,7 +1006,7 @@ height: 30rem;
     #feat-banner {
         width: 46rem;
         padding-top: 13rem;
-        border: solid;
+        /* border: solid; */
         height: 116rem;
     }
 
@@ -898,14 +1059,14 @@ height: 30rem;
         /* margin-top: 18rem; */
         /* padding: 2vw 6rem; */
         width: 195%;
-        border: solid;
+        /* border: solid; */
     }
 
     #best-features-con {
         margin-top: 22rem;
         width: 195%;
         height: auto;
-        border: solid;
+        /* border: solid; */
     }
 
     #best-features-head p {
@@ -950,7 +1111,7 @@ height: 30rem;
         margin-left: auto;
         margin-right: auto;
         padding-left: 1.4rem;
-        border: solid;
+        /* border: solid; */
         padding-top: 6rem;
     }
 
@@ -1002,7 +1163,7 @@ height: 30rem;
         margin-left: auto;
         margin-right: auto;
         padding-left: 1.4rem;
-        border: solid;
+        /* border: solid; */
         padding-top: 1rem;
     }
 
@@ -1013,7 +1174,7 @@ height: 30rem;
     #about-con1 {
         width: 100%;
         height: auto;
-        border: solid;
+        /* border: solid; */
     }
 
     #about-app-con1-left {
@@ -1049,7 +1210,7 @@ height: 30rem;
         padding-top: 5rem;
         height: 580rem;
 
-        border: solid green;
+        /* border: solid green; */
     }
 
     #about-con2 {
@@ -1059,7 +1220,7 @@ height: 30rem;
         flex-direction: column-reverse;
         padding-left: 1rem;
         height: auto;
-        border: solid blue;
+        /* border: solid blue; */
         padding-top: 6rem;
     }
 
@@ -1090,26 +1251,97 @@ height: 30rem;
         font-size: 4.3rem;
     }
 
-        #work-process-con {
+    #work-process-con {
         width: 200%;
         height: 166rem;
         padding: 2rem 0rem;
     }
+
     #work-process-head {
+        text-align: center;
+        padding: 0rem 0rem;
+    }
+
+    #work-process-head h1 {
+        font-size: 3.7rem;
+    }
+
+    #work-process-head p {
+        font-size: 2.5rem;
+    }
+
+    #conn-b,
+    #conn-t {
+        display: none;
+    }
+
+    #custom-con {
+        width: 200%;
+        padding: 2rem 5rem;
+    }
+
+    #download-banner-left {
+        width: 105%;
+        padding: 1rem 1rem;
+        text-align: center;
+    }
+
+       #download-banner-con{
+
+        height: 196rem;
+        border-radius: 1rem;
+        border: solid red;
+        width: 200%;
+    }
+    #download-banner-left h1 {
+        font-size: 3.2rem;
+    }
+
+    #download-banner-con {
+        padding: 0rem 2rem;
+    }
+
+    #download-banner-left p {
+        font-size: 2.35rem;
+    }
+
+    #download-banner-left img {
+        width: 20rem;
+        margin-right: .5rem;
+    }
+
+    #download-banner-right img {
+        width: 100%;
+    }
+
+    #download-banner-right {
+        width: 100%;
+        /* border: solid; */
+        height: auto;
+        padding-top: 7rem;
+        padding-left: 5rem;
+        padding-right: 2rem;
+    }
+
+    .dwn-right-img1 {
+        display: none;
+    }
+
+    .dwn-right-img12 {
+        display: inline;
+    }
+
+    .dwn-right-img2 {
+        display: none;
+    }
+
+    .dwn-right-img21 {
+        display: inline;
+    }
+    #test-con {
     text-align: center;
-    padding: 0rem 0rem;
-}
-#work-process-head h1 {
-    font-size: 3.7rem;
-}
-#work-process-head p {
-    font-size: 2.5rem;
-}
-#conn-b, #conn-t{
-    display: none;
-}
-#custom-con{
+    margin-top: 210rem;
     width: 200%;
-    padding: 2rem 5rem;
 }
+
 }
