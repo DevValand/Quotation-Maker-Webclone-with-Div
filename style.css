@@ -744,27 +744,36 @@ li::marker {
 #test-card-box {
     /* border: solid green; */
     margin: 2rem 3rem;
-    width: 71rem;
+    width: 86%;
     height: 17rem;
-    padding: 2rem 4rem;
+    padding: 0rem 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-self: center;
+    position: relative;
 }
 
 #test-card {
-    width: 30rem;
+    width: 28rem;
     /* border: solid blue; */
     text-align: justify;
     float: left;
     padding: .2rem 1rem;
-    margin-right: 1.3rem;
+    margin-right: 1.1rem;
     box-shadow: 0px 1px 5px rgba(45, 74, 170, 0.14);
     border-radius: .5rem;
+    height: auto;
 }
 #test-card-lwr{
     /* border: solid; */
     padding: 1rem;
+    position: relative;
+
 }
 #test-card-lwr-left > div{
     float: left;
+
 }
 #card-img {
     width: auto;
@@ -774,17 +783,18 @@ li::marker {
 #card-name {
     /* float: left; */
     text-align: left;
-    margin-top: -2rem;
+    /* margin-top: -10rem; */
 }
 #card-name p{
     margin-top: -1rem;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: black;
+    font-size: .9rem;
 }
 #card-name h4{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: black;
-    font-size: .9rem;
+    font-size: 1.1rem;
     font-weight: 550;
 
 }
@@ -797,11 +807,14 @@ li::marker {
 #test-card-lwr {
     /* border: solid; */
     padding: 0rem;
+    
+
 }
 #test-card-lwr-left {
     float: left;
     /* justify-items: center; */
-    margin-right: 8rem;
+    margin-right: 27%;
+
 }
 #card-img {
     /* width: 2rem; */
@@ -811,11 +824,144 @@ li::marker {
 #card-name {
     float: left;
     text-align: left;
-    margin-top: -1rem;
+    margin-top: -2rem;
 }
 #test-card-lwr-right {
     float: left;
+    margin-top: -.5rem;
+    
 }
+#test-card-lwr-right p{
+    color: black;
+}
+
+
+#faq-ques {
+    float: left;
+    width: 96%;
+    line-height: 3rem;
+}
+#faq-btn{
+    float: left;
+    width: 4%;
+
+}
+/* #qa-lwr{
+    display: none;
+}
+#qa-lwr:hover{
+    display: block;
+} */
+
+ #faq-btn input[type='checkbox']{
+     /* content: "+"; */
+     /* background-color: red;
+     border: solid red; */
+     position: absolute;
+     opacity: 0;
+     
+    }
+.checkbox input:checked + .checkmark::after {
+  content: "-";
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+#FAQs-con-head{
+    text-align: center;
+    font-size: 1.4rem;
+}
+.b-shadow {
+    width: 100%;
+    text-align: left;
+        padding: 1rem 2rem;
+background-color: #fff; border: 1px solid #ddd; border-radius: 10px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* soft shadow */ cursor: pointer; transition: box-shadow 0.3s ease;
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+.faq-btn::after {
+    content: "+";
+    font-size: 2.6rem;
+    /* line-height: 1.75rem; */
+    font-weight: 600;
+    color: #283693;
+}
+
+#FAQs-con-lwr{
+    /* border: solid; */
+    width: 66%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+
+}
+
+#FAQs-con{
+    margin-top: 5rem;
+
+}
+
+#footer-con{
+    text-align: center;
+    width: 100%;
+    margin-bottom: -1rem;
+    /* border: solid; */
+    padding-top: 0.1rem;
+    background: rgb(40 54 147);
+}
+#footer-con p{
+    bottom: 0;
+    color: white;
+    
+}
+footer {
+    margin-left: -0.5rem;
+    margin-right: -.5rem;
+    /* left: 0;? */
+}
+
+#contact-form-con{
+    height: 100rem;
+}
+
+#contact-form-head{
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact-form-head h1{
+    font-size: 2.7rem;
+}
+#contact-form-head p{
+    font-size: 1.1rem;
+    color: #314259;
+    
+}
+
+.input-fields {
+    outline: none;
+    /* outline-offset: 76rem; */
+    font-size: 1.2rem;
+    width: 50%;
+    float: left;
+    padding: 1.5rem 3rem;
+    font-weight: 450;
+    margin-top: 5rem;
+    border-radius: .5rem;
+    /* margin-right: 4rem; */
+    }
+    #form-con textarea{
+        width: 100%;
+    }
+#form-con{
+    height: 50rem;
+}
+
 
 
 
@@ -1290,7 +1436,7 @@ li::marker {
 
         height: 196rem;
         border-radius: 1rem;
-        border: solid red;
+        /* border: solid red; */
         width: 200%;
     }
     #download-banner-left h1 {
@@ -1342,6 +1488,180 @@ li::marker {
     text-align: center;
     margin-top: 210rem;
     width: 200%;
+    height: 77rem;
+}
+#test-card-box {
+    /* border: solid green; */
+    /* margin: 2rem 3rem; */
+    /* width: 205%; */
+    width: fit-content;
+    height: 35rem;
+padding: 1rem 1rem;
+    border: solid;
+    overflow: hidden;
+}
+#test-head {
+    width: 100%;
+}
+#test-head h1 {
+    font-size: 3.4rem;
+}
+#test-head p {
+    font-size: 2.5rem;
+    color: #314259;
+}
+#test-card {
+        width: 45rem;
+    }
+#test-card p{
+    font-size: 2.2rem;
+}
+#card-img img{
+    width: 5rem;
+}
+#card-name h4 {
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    color: black;
+    font-size: 2.1rem;
+}
+#card-name {
+
+    margin-top: -3rem;
+}
+#test-card-lwr-left {
+    margin-right: 0%;
+}
+#FAQs-con{
+    /* border: solid red; */
+    text-align: center;
+    width: fit-content;
+    margin-top: 20rem;
+}
+#FAQs-con-head{
+    border: solid black;
+    width:48rem;
 }
 
+#FAQs-con-lwr{
+    margin-top: 7rem;
+    
+}
+.b-shadow{
+    background-color: #fff; border: 1px solid #ddd; border-radius: 10px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* soft shadow */ cursor: pointer; transition: box-shadow 0.3s ease;
+    font-size: 2.4rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    width: 98%;
+
+        padding: 1rem 2rem;
+    /* background: red; */
+    text-align: left;
+}  
+ 
+.b-shadow p {
+        color: #545454;
+        font-size: 2rem;
+    }
+
+#faq-ques{
+    float: left;
+    width: 95%;
+}
+#faq-btn{
+    float: left;
+    width: 5%;
+
+}
+#FAQs-con-lwr {
+    /* border: solid; */
+    width: 98%;
+}
+
+    #contact-form-con {
+        height: 135rem;
+        width: 200%;
+        /* border: solid; */
+        padding: 0rem 1rem;
+        margin: 1rem 1rem;
+    }
+.input-fields {
+        outline: none;
+        /* outline-offset: 76rem; */
+        font-size: 2.2rem;
+        width: 100%;
+        padding: 1.5rem 3rem;
+        font-weight: 400;
+        margin-top: 5rem;
+        border-radius: .5rem;
+        /* border: none; */
+        outline: none;
+        outline-offset: 1rem;
+    }
+    #contact-form-head h1 {
+    font-size: 3rem;
+}
+#contact-form-head {
+    width: 100%;
+}
+#contact-form-head p {
+    font-size: 2.4rem;
+    color: #314259;
+}
+    #form-con {
+        height: auto;
+        padding: 1rem 2rem;
+        margin: 4rem 1rem;
+                text-align: center;
+                    background-color: rgb(248 250 251);
+    }
+#footer-con {
+    /* text-align: center; */
+    width: 200%;
+}
+#captcha-con{
+    /* width: auto; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    /* float: left; */
+    /* border: solid; */
+    border: solid red;
+    flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 84rem;
+            border: 1px solid #d3d3d3;
+        padding: 1rem;
+}
+.captch-box{
+}
+#checkbox-captcha{
+    /* float: left; */
+    /* width: 10%; */
+}
+#captcha-text{
+    /* float: left; */
+    /* width: 70%; */
+}
+#captcha-img{
+    /* float: left; */
+    /* width: 20%; */
+}
+#captcha-img img{
+    width: 100%;
+}
+input[type="checkbox"]{
+    width: 4rem;
+    height: 3rem;
+    border: solid blue;
+}
+input[type="submit"]{
+   background-color: rgb(40 54 147);
+        color: white;
+        padding: .8rem 2rem;
+        font-size: 2.3rem;
+        font-weight: 400;
+        width: 55%;
+        border-radius: 1rem;
+}
 }
