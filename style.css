@@ -1195,6 +1195,55 @@ footer {
 
 
 
+
+
+
+#what-icon{
+    background: rgba(30, 170, 81, 0.90);
+    /* width: fit-content; */
+    border-radius: 100%;
+    padding: .5vw;
+    height: fit-content;
+    /* width: fit-content; */
+    position: fixed;
+    /* justify-self: end; */
+    align-self:flex-end;
+    margin-right: 1vw;
+    margin-bottom: 1vw;
+    text-align: right;
+    justify-content: end;
+    justify-self: right;
+    justify-items: end;
+    align-items: center;
+    align-content: center;
+    align-self: self-end;
+    margin-left: 92%;
+
+
+}
+.icon{
+    color: rgb(255, 255, 255,.90);
+}
+#what-icon:hover{
+    background: rgb(30, 170, 81);
+    color: white;
+    cursor: pointer;
+}
+#what-icon{
+    animation: upDown 3s infinite ease;
+}
+
+@keyframes upDown{
+    0%,100%{
+       transform: translateY(0); 
+    }
+    50%{
+        transform: translateY(-5vw); 
+        
+    }
+    
+
+}
 /* * {
   box-sizing: border-box;
   margin: 0;
