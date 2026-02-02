@@ -54,7 +54,7 @@ nav {
     background: rgba(255, 255, 255, 0.8);
     /* padding-top: .1vw; */
     position: sticky;
-    z-index: 100;
+    z-index: 1000;
     backdrop-filter: blur(10px);
     /* border: solid; */
     /* position: fixed; */
@@ -79,19 +79,23 @@ section {
 #navBar-left {
     /* font-size: 90px; */
     width: 30%;
+    cursor: pointer;
     /* align-content: center; */
 }
 
 #navBar-left img {
     width: 4rem;
     height: auto;
+    cursor: pointer;
 }
 
 
 #navBar-left-cmp-name {
+    cursor: pointer;
     position: absolute;
     margin-left: 5.3vw;
     margin-top: 1.1vw;
+    
 }
 
 #navBar-right {
@@ -271,7 +275,7 @@ svg {
 }
 
 .cmn-effect {
-    padding-top: 1rem;
+    padding-top: 2rem;
 }
 
 #app-ss-con {
@@ -300,7 +304,7 @@ svg {
 .ss-header {
     width: 100%;
     text-align: center;
-    padding: 5rem 13vw;
+    padding: 3rem 13vw;
     font-size: 1.3rem;
 }
 
@@ -344,7 +348,7 @@ svg {
 
 #best-features-con {
     margin-top: 4rem;
-    padding-top: 5rem;
+    padding-top: 4rem;
 
     /* border: 1px solid; */
 }
@@ -465,7 +469,7 @@ svg {
 
 #about-app-con {
     margin-top: 4rem;
-    padding-top: 5rem;
+    padding-top: 9rem;
     height: 140rem;
     /* border: solid; */
     width: 92%;
@@ -480,7 +484,7 @@ svg {
     /* width: 100%; */
     height: 38rem;
     padding: 0rem 2rem;
-    background: linear-gradient(to right,white,white, white,rgb(220,224,240));
+    /* background: linear-gradient(to right,white,white, white,rgb(220,224,240)); */
 }
 
 #about-app-con img {
@@ -745,7 +749,7 @@ li::marker {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
-    padding: 2.7rem 1rem;
+    padding: 1.8rem 1rem;
 }
 #test-head p {
     font-size: 1.2rem;
@@ -977,6 +981,7 @@ background-color: rgb(248 250 251 );
     margin-right: auto;
     background-color: rgb(248 250 251);
     text-align: center;
+    margin-top: 4rem;
 }
 
 
