@@ -551,8 +551,8 @@ svg {
     /* margin-top: -.4rem; */
 }
 
-li::marker {
-    font-size: 2.3rem;
+#about-app-con2-left li::marker {
+    font-size: 2.5rem;
 }
 
 #about-app-con2-left {
